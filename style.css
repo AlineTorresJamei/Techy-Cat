@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.sarala-regular {
+    font-family: "Sarala", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sarala-bold {
+    font-family: "Sarala", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background:linear-gradient(68.15deg, #2C2EBD 16.62%, #8888FF 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    display: flex;
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #e4deda;
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #2C2EBD;
+
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: #6b6dd1;
+    color:#ffffff ;
+}
+
+.conteudo-principal-imagem{
+    height: 450px;
+}
+
+.conteudo-servicos-escrito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #e4deda;
+}
+.conteudo-servicos-escrito-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    color: #fff2e7;
+    
+}
+
+.conteudo-servicos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+.conteudo-servicos-escrito1{
+    padding: 25px;
+}
+
+.conteudo-servicos-escrito-subtitulo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff2e7;
+    margin-bottom: 20px;
+}
+
+.conteudo-servicos-escrito-texto{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    font-family: 'Sarala', cursive;
+    font-size: 15px;
+    color: #000000;
+}
+
+.conteudo-vantagens-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.conteudo-vantagens-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    color: #fff2e7;
+    text-align: center;
+}
+
+.conteudo-vantagens-escrito-texto {
+    font-family: 'Sarala', cursive;
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+
+.conteudo-vantagens-lista {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.conteudo-vantagen-linha-lista {
+    font-family: 'Sarala', cursive;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.conteudo-portifolio-escrito {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 50px;
+}
+
+.conteudo-portifolio-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+    color: #fff2e7;
+    padding: 50px;
+
+}
+
+.conteudo-portifolio-escrito-texto {
+    font-family: 'Sarala', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    align-items: center;
+    width: 40%;
+}
+
+.conteudo-portifolio-imagem img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.50);
+    padding: 1px;
+}
+
+.conteudo-portifolio-escrito-texto-imagem{
+    font-family: 'Sarala', cursive;
+    font-size: 12px;
+    color: #ffffff;
+    align-items: center;
+    padding-bottom: 15px;
+    border-top: 1px solid #ffffff;
+}
+
+.conteudo-redes-sociais-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.conteudo-redes-sociais-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    color: #fff2e7;
+}
+
+.conteudo-redes-sociais-lista-redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.conteudo-redes-sociais-lista-redes-linha a {
+    font-family: 'Sarala', cursive;
+    font-size: 18px;
+    color: #fff2e7;
+    text-decoration: none;
+}
+
+.conteudo-redes-sociais-lista-redes-linha a:hover {
+    text-decoration: underline;
+}
+
+.icones-redes-sociais{
+    max-width: 50px;
+}
+
+.conteudo-contato-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.conteudo-contato-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 45px;
+    color: #fff2e7;
+}
+
+.conteudo-contato-escrito-texto {
+    font-family: 'Sarala', cursive;
+    font-size: 20px;
+    color: #000000;
+}
+
+.conteudo-contato-cta{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #8888FF, #312f7e);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+}
+
+.conteudo-contato-cta input, .conteudo-contato-cta textarea{
+    resize: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 2px solid #8888FF;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.conteudo-contato-botao {
+    padding: 12px 24px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    color: #2C2EBD;
+    background-color: #ecded2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.25);
+    width: 50%;
+    margin: 20px auto;
+    
+}
+
+.conteudo-contato-botao:hover {
+    background-color: #6b6dd1;
+    font-size: 18px;
+    color:#ffffff ;
+}
+
+.conteudo-contato-cta-nome{
+    display:flex;
+    padding: 10px;
+    font-family: 'Sarala', cursive;
+    font-size: 20px;
+    color:#ffffff
+    
+}
+
+.conteudo-contato-cta-email{
+    display:flex;
+    padding: 10px;
+    font-family: 'Sarala', cursive;
+    font-size: 20px;
+    color:#ffffff
+    
+}
+
+.conteudo-contato-cta-msg{
+    display:flex;
+    padding: 10px;
+    font-family: 'Sarala', cursive;
+    font-size: 20px;
+    color:#ffffff
+    
+}
+
+.rodape{
+    display: flex;
+   padding-left: 50px;
+}
